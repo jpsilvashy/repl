@@ -1,7 +1,7 @@
 puts "Ruby REPL"
 
 # Handle the input, this would probably run some method
-# as aparrt of the DSL you'd have to create. Place this
+# as a part of the DSL you'd have to create. Place this
 # repl as your command line interface to your service.
 def handle_input(input)
   result = eval(input)
